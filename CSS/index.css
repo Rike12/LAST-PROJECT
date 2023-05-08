@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: black;
+  color: white;
+}
+/*-----HEADER------ */
+
+.header {
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid #333;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/assests/image1.png);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.logo {
+  width: 90px;
+  cursor: pointer;
+}
+nav button {
+  border: 0;
+  outline: 0;
+  background: rgb(189, 0, 1);
+  color: white;
+  padding: 7px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.language {
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  border: 1px solid white;
+  padding: 7px 10px;
+}
+.fa-globe {
+  padding-right: 3px;
+}
+.language img {
+  width: 10px;
+  margin-left: 10px;
+}
+/*-----HERO SECTION-----*/
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/assests/image1.png);
+  width: 100%;
+  height: 500px;
+  border-top: 1px solid #333;
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+}
+.hero .content {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 100px;
+}
+.hero .content h1 {
+  font-size: 70px;
+  line-height: 60px;
+  font-weight: 600;
+  max-width: 650px;
+}
+.hero .content h3 {
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-top: 6px;
+}
+.emailsignup {
+  background: white;
+  border-radius: 4px;
+  display: flex;
+  margin-top: 30px;
+  overflow-y: hidden;
+}
+.emailsignup input {
+  flex: 1;
+  border: 0;
+  outline: 0;
+  margin-left: 20px;
+}
+.emailsignup button {
+  background: rgb(189, 0, 1);
+  border: 0;
+  outline: 0;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 15px 30px;
+}
+
+/*------MAIN CONTENT-------*/
+
+.enjoy {
+  height: 500px;
+  border-top: 1px solid #333;
+  display: flex;
+  padding-top: 80px;
+  column-gap: 50px;
+  justify-content: center;
+}
+.text1 {
+  padding-top: 100px;
+  padding-right: 40px;
+}
+.text1 h2 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  padding-top: 2px;
+}
+.text1 p {
+  line-height: 20px;
+}
+.enjoy img {
+  display: block;
+}
+
+.download {
+  height: 500px;
+  display: flex;
+  padding-top: 80px;
+  border-top: 1px solid #333;
+  column-gap: 90px;
+  justify-content: center;
+}
+.text2 {
+  padding-top: 50px;
+  padding-right: 40px;
+}
+.text2 h2 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-top: 2px;
+}
+.image2 {
+  padding-right: 60px;
+  padding-top: 30px;
+}
+
+.watch {
+  height: 500px;
+  display: flex;
+  border-top: 1px solid #333;
+  padding-top: 70px;
+  column-gap: 50px;
+  justify-content: center;
+}
+.text3 {
+  padding-top: 100px;
+  padding-right: 40px;
+}
+.text3 h2 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  padding-top: 2px;
+}
+.text3 p {
+  line-height: 20px;
+}
+.watch img {
+  display: block;
+  padding-top: 40px;
+}
+.create {
+  height: 480px;
+  display: flex;
+  padding-top: 50px;
+  border-top: 1px solid #333;
+  column-gap: 90px;
+  justify-content: center;
+}
+.text4 {
+  padding-right: 40px;
+}
+.text4 h2 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-top: 60px;
+}
+.image4 {
+  padding-right: 60px;
+  
+}
+/*-----FAQ-----*/
+.faq {
+  padding: 10px 12%;
+  text-align: center;
+  font-size: 18px;
+  border-top: 1px solid #333;
+  height: 800px;
+}
+.faq h2 {
+  font-weight: 500;
+  font-size: 40px;
+  padding-top: 40px;
+}
+.accordion {
+  margin: 60px auto;
+  width: 100%;
+  max-width: 750px;
+}
+
+.accordion li {
+  list-style: none;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  background: rgb(42, 41, 41);
+  border-radius: 4px;
+}
+
+.accordion li label {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  color: white;
+}
+
+.accordion li label span {
+  font-size: 16px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+.faq .emailsignup {
+  max-width: 600px;
+  margin: 20px auto 60px;
+}
+.faq small {
+  font-size: 13px;
+}
+
+/*-------FOOTER-----*/
+.footer {
+  padding: 50px 15% 10px;
+  border-top: 1px solid #333;
+}
+
+.row {
+  width: 100%;
+}
+.footer .row h2 {
+  padding-top: 60px;
+  font-size: 10px;
+  color: rgb(111, 110, 107);
+  padding-left: 70px;
+}
+.col {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+}
+.col > div {
+  width: 100%;
+}
+.col > div a {
+  font-size: 10px;
+  font-weight: 2px;
+  line-height: 20px;
+  display: block;
+  text-decoration: none;
+  color: rgb(111, 110, 107);
+  margin-bottom: 10px;
+}
+.footer .language {
+  color: white;
+  padding: 10px 10px;
+  border-radius: 3px;
+}
+
+.copyright {
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/*------ media queries- for - small- screen------*/
+@media only screen and (max-width: 360px) {
+  nav button {
+    padding: 5px 10px;
+  }
+
+  nav .language {
+    padding: 4px 8px;
+  }
+  .hero.content{
+    position: fixed;
+  }
+  .hero.content h1 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    max-width: 650px
+    
+  }
+  .hero .content h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-top: 6px
+  }
+
+  .emailsignup button {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+
+  .text2,
+  .text4 {
+    padding-bottom: 20px;
+  
+  }
+  
+  .text1{
+    font-size: 20px;
+    text-align: center;
+    padding-right: 10px;
+  }
+  .text1 p{
+    font-size: 14px;
+  }
+
+  .text2 h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .text2 p{
+    text-align: center;
+    padding-left: 35px;
+    font-size: 14px;
+  }
+
+  .text3{
+    text-align: center;
+    padding-right: 10px;
+  }
+
+  .text3 p {
+    font-size: 14px;
+  }
+  .text4{
+    text-align: center;
+    padding-right: 10px;
+  }
+  .text4 p{
+    font-size: 14px;
+  }
+  .enjoy,
+  .download,
+  .watch,
+  .create {
+    display: inline;
+  }
+ 
+  .faq h2 {
+    font-size: 14px;
+  }
+  .accordion .content {
+    font-size: 14px;
+  }
+  .accordion li label {
+    padding: 10px;
+    font-size: 14px;
+    justify-content: center;
+  }
+  label::after {
+    font-size: 22px;
+  }
+}
